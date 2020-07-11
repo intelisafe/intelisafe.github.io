@@ -1,0 +1,119 @@
+html,
+body {
+  height: 100%;
+}
+
+.hero {
+  margin-top: -64px;
+  min-height: 100vh;
+  background-image: linear-gradient(
+      rgba(10, 39, 167, 0.6),
+      rgba(10, 39, 167, 0.6)
+    ),
+    url("../img/_background-03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-row {
+  min-height: 100vh;
+}
+
+.h1-hero {
+  color: rgba(218, 218, 218, 0.9);
+  font-size: 1.7em;
+  line-height: 1;
+  margin: 0;
+  margin-bottom: 16px;
+  text-shadow: black 0px 0px 10px;
+}
+
+.h2-hero {
+  color: rgba(218, 218, 218, 0.9);
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0;
+  margin-bottom: 16px;
+  text-shadow: black 0px 0px 10px;
+}
+
+.rotative-text {
+  /* color: rgba(238, 151, 37, 1); */
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.2;
+  text-shadow: black 0px 0px 10px;
+  min-height: 4em;
+}
+
+.hero .card-panel {
+  opacity: 0.9;
+  color: rgba(218, 218, 218, 0.9);
+  text-shadow: black 0px 0px 10px;
+}
+
+.intelisafe {
+  padding: 2em 0 2em 0;
+}
+
+.funcionalidades {
+  background-image: linear-gradient(
+      rgba(10, 39, 167, 0.7),
+      rgba(10, 39, 167, 0.7)
+    ),
+    url("../img/_background-04.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2em 0 1em 0;
+}
+
+footer {
+  padding: 3em 0 2em 0;
+}
+
+/*
+*** Form Styles
+*/
+
+#contact-form input[type="text"],
+#contact-form input[type="email"] {
+  color: rgba(218, 218, 218, 0.9);
+}
+
+#contact-form input[type="text"]:disabled + label,
+#contact-form input[type="email"]:disabled + label {
+  color: rgba(139, 139, 139, 0.9);
+}
+
+/* label color */
+/* .input-field label {
+  color: red;
+} */
+/* label focus color */
+/* .input-field input[type="text"]:focus + label {
+  color: red;
+} */
+/* label underline focus color */
+/* .input-field input[type="text"]:focus {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+} */
+/* valid color */
+/* .input-field input[type="text"].valid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+} */
+/* invalid color */
+/* .input-field input[type="text"].invalid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+} */
+/* icon prefix focus color ÍCONE*/
+/* .input-field .prefix.active {
+  color: lightcyan;
+} */
+
+/* disabled */
