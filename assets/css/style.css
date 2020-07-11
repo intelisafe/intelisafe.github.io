@@ -10,7 +10,7 @@ body {
       rgba(10, 39, 167, 0.6),
       rgba(10, 39, 167, 0.6)
     ),
-    url(../img/_background-03-min.jpg);
+    url(../img/background-03-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -63,7 +63,7 @@ body {
       rgba(10, 39, 167, 0.7),
       rgba(10, 39, 167, 0.7)
     ),
-    url(../img/_background-04-min.jpg);
+    url(../img/background-04-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
