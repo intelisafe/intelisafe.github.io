@@ -4,8 +4,9 @@ body {
 }
 
 .hero {
+  padding: 12em 0 8em 0;
   margin-top: -64px;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   background-image: linear-gradient(
       rgba(10, 39, 167, 0.6),
       rgba(10, 39, 167, 0.6)
@@ -17,7 +18,7 @@ body {
 }
 
 .hero-row {
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .h1-hero {
@@ -54,6 +55,9 @@ body {
   text-shadow: black 0px 0px 10px;
 }
 
+.oqe {
+  padding-top: 2em;
+}
 .intelisafe {
   padding: 2em 0 2em 0;
 }
